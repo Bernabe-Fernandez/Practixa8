@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #7a7a7a;
+}
+
+.areaPrincipal {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+#encabezado {
+  background-color: #d0e6f8;
+  height: 240px;
+  text-align: center;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: 180px 180px;
+}
+
+.piePagina {
+  width: 100%;
+  height: 100px;
+  background-color: #15101b;
+  color: white;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+}
+
+.piePagina p {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#menu {
+  height: 40px;
+  position: relative;
+  top: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+#datos,
+#nosotros {
+  width: 80%;
+  background-color: #88e94f;
+  height: 600px;
+  margin: auto;
+  opacity: 1;
+  color: #2a3e55;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.historia td p {
+  margin: 5px;
+}
+
+.titulo {
+  padding: 15px 0;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+td {
+  text-align: center;
+}
+td > img {
+  width: 80%;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.tabla {
+  width: 100%;
+}
+
+.tabla tr img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.nombre td {
+  text-transform: uppercase;
+  color: #111111;
+  font-family: cursive;
+}
+
+.precio td p {
+  color: aliceblue;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#contacto,
+#galeria {
+  width: 80%;
+  background-color: wheat;
+  height: 790px;
+  margin: auto;
+  opacity: 1;
+  color: #2a3e55;
+  padding: 10px;
+}
+
+.galeria td img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+td {
+  text-align: center;
+}
+
+.botton {
+  background-color: yellow;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: none;
+}
+.formulario {
+  background-color: gray;
+  width: 500px;
+  margin: 0 auto; /*Centra el formulario*/
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.formulario fieldset {
+  border: none;
+}
+
+.formulario legend {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: yellow;
+}
+
+.campo {
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+.campo label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.campo textarea {
+  height: 190px;
+}
+
+.input-text {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
